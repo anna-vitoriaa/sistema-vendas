@@ -1,7 +1,4 @@
-import customtkinter as ctk
+from ui import tela_principal
 
-app = ctk.CTk()
-app.title("Sistema de vendas")
-app.geometry('900x600')
-
-app.mainloop()
+tp = tela_principal.Tela_principal()
+tp.app.mainloop()
